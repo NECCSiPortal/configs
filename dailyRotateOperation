@@ -1,0 +1,9 @@
+/var/log/horizon/operation/operation.log
+{
+        daily
+        rotate 31
+        copytruncate
+        compress
+        missingok
+        notifempty
+}

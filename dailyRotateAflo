@@ -1,0 +1,9 @@
+/var/log/aflo/api.log
+{
+        daily
+        rotate 31
+        copytruncate
+        compress
+        missingok
+        notifempty
+}

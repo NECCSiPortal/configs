@@ -1,0 +1,9 @@
+/var/log/capacity/nova/*log
+{
+        daily
+        rotate 31
+        copytruncate
+        compress
+        missingok
+        notifempty
+}
